@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <list>
 #include <assert.h>
 
 namespace hcy
@@ -10,6 +11,61 @@ namespace hcy
     public:
         typedef T *iterator;
         typedef const T *const_iterator;
+
+        vector() = default;
+
+        vector(const vector<T> &v)
+        {
+            reserve(v.size());
+            for (auto &e : v)
+            {
+                push_back(e);
+            }
+        }
+
+        template <typename InputIterator>
+        vector(InputIterator first, InputIterator last)
+        {
+            while (first != last)
+            {
+                push_back(*first);
+                ++first;
+            }
+        }
+
+        vector(size_t n, const T &tal = T())
+        {
+            reserve(n);
+            for (size_t i = 0; i < n; ++i)
+            {
+                push_back(tal);
+            }
+        }
+
+        void clear()
+        {
+            _finish = _start;
+        }
+
+        void swap(vector<T> &v)
+        {
+            std::swap(_start, v._start);
+            std::swap(_finish, v._finish);
+            std::swap(_end_of_storage, v._end_of_storage);
+        }
+
+        vector<T> &operator=(vector<T> v)
+        {
+            swap(v);
+            return *this;
+        }
+
+        ~vector()
+        {
+            delete[] _start;
+            _start = _finish = _end_of_storage = nullptr;
+        }
+
         iterator begin()
         {
             return _start;
@@ -33,12 +89,33 @@ namespace hcy
             {
                 size_t old_size = size();
                 T *tmp = new T[n];
-                memcpy(tmp, _start, size() * sizeof(T));
+                // memcpy(tmp, _start, size() * sizeof(T));
+                for (size_t i = 0; i < old_size; ++i)
+                {
+                    tmp[i] = _start[i];
+                }
                 delete[] _start;
 
                 _start = tmp;
                 _finish = _start + old_size;
                 _end_of_storage = _start + n;
+            }
+        }
+
+        void resize(size_t n, const T &val = T())
+        {
+            if (n < size())
+            {
+                _finish = _start + n;
+            }
+            else
+            {
+                reserve(n);
+                while (_finish < _start + n)
+                {
+                    *_finish = val;
+                    ++_finish;
+                }
             }
         }
 
@@ -94,6 +171,18 @@ namespace hcy
             return pos;
         }
 
+        void erase(iterator pos)
+        {
+            assert(pos >= _start && pos < _finish);
+            iterator it = pos + 1;
+            while (it != end())
+            {
+                *(it - 1) = *it;
+                ++it;
+            }
+            --_finish;
+        }
+
         T &operator[](size_t i)
         {
             assert(i < size());
@@ -127,6 +216,17 @@ namespace hcy
         {
             std::cout << e << " ";
         }
+        std::cout << std::endl;
+    }
+
+    template <class Container>
+    void print_container(const Container &v)
+    {
+        for (auto e : v)
+        {
+            std::cout << e << " ";
+        }
+
         std::cout << std::endl;
     }
 }
