@@ -1,0 +1,4 @@
+D:/Code collection/Daily code/2026 year/6 month/6_18_1/build/CMakeFiles/ALL_BUILD.dir
+D:/Code collection/Daily code/2026 year/6 month/6_18_1/build/CMakeFiles/ZERO_CHECK.dir
+D:/Code collection/Daily code/2026 year/6 month/6_18_1/build/math/CMakeFiles/MyMath.dir
+D:/Code collection/Daily code/2026 year/6 month/6_18_1/build/app/CMakeFiles/calc.dir
