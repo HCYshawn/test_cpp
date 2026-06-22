@@ -1,0 +1,11 @@
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/CMakeFiles/RUN_TESTS.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/CMakeFiles/ALL_BUILD.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/CMakeFiles/ZERO_CHECK.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/test_strutils.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/Experimental.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/Nightly.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/Continuous.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/NightlyMemoryCheck.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/CMakeFiles/RUN_TESTS.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/example/CMakeFiles/strutils_example.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/example/CMakeFiles/RUN_TESTS.dir

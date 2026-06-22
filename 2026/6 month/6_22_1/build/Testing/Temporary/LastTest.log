@@ -1,0 +1,26 @@
+Start testing: Jun 22 15:20 中国标准时间
+----------------------------------------------------------
+1/1 Testing: strutils_test
+1/1 Test: strutils_test
+Command: "D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests/Debug/test_strutils.exe"
+Directory: D:/Code collection/Daily code/2026 year/6 month/6_22_1/build/tests
+"strutils_test" start time: Jun 22 15:20 中国标准时间
+Output:
+----------------------------------------------------------
+[PASS] Test 1: to_upper normal string
+[PASS] Test 2: to_lower normal string
+[PASS] Test 3: empty string
+[PASS] Test 4: string with numbers and symbols
+[PASS] Test 5: already upper/lower unchanged
+[PASS] Test 6: mixed case to lower
+
+All tests passed!
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"strutils_test" end time: Jun 22 15:20 中国标准时间
+"strutils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 22 15:20 中国标准时间

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/17540/Desktop/**)",
+      "Read(//c/Users/17540/Desktop//**)",
+      "Bash(ls -la \"/c/Users/17540/Desktop/proj3_string_utils/\" 2>/dev/null && echo \"EXISTS\" || echo \"NOT_FOUND\")",
+      "Bash(find \"/c/Users/17540/Desktop/proj3_string_utils\" -type f 2>/dev/null | sort)",
+      "Bash(find \"/c/Users/17540/Desktop/proj3_string_utils/build\" -type f -not -path \"*/CMakeFiles/*\" -not -path \"*/.ninja*\" 2>/dev/null | sort)",
+      "Read(//c/Users/17540/Desktop/proj3_string_utils/**)",
+      "Bash(cmake --build build --config Debug)",
+      "Bash(\"./build/example/Debug/strutils_example.exe\")",
+      "Bash(ctest --test-dir build -C Debug --output-on-failure)"
+    ]
+  }
+}
