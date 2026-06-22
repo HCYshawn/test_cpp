@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where rg *)",
+      "Bash(winget list *)",
+      "Bash(winget install *)",
+      "Bash(find /d/shape_install -type f 2>/dev/null)",
+      "Read(//d/d/shape_install/**)",
+      "Bash(ls -la /d/shape_install 2>&1; echo \"---\"; ls -la /d/ 2>&1)",
+      "Read(//d/d/**)",
+      "Bash(mkdir -p \"d:/Code collection/Daily code/2026 year/6 month/6_22_3\")",
+      "Bash(cmake -B build -DCMAKE_PREFIX_PATH=D:/shape_install)",
+      "Bash(cat D:/shape_install/lib/cmake/Shape/ShapeConfig.cmake)",
+      "Read(//d/shape_install/lib/cmake/Shape/**)",
+      "Bash(cmake --install build --prefix D:/shape_install --config Debug)",
+      "Bash(cmake -B build -DCMAKE_INSTALL_PREFIX=D:/shape_install)",
+      "Bash(cmake --install build --config Debug)",
+      "Bash(cmake --build build --config Debug)",
+      "Bash(PATH=D:/shape_install/bin:__TRACKED_VAR__ ./build/Debug/shape_consumer.exe)",
+      "Bash(cp D:/shape_install/bin/shape.dll \"d:/Code collection/Daily code/2026 year/6 month/6_22_3/build/Debug/\")",
+      "Bash(./build/Debug/shape_consumer.exe)"
+    ],
+    "additionalDirectories": [
+      "d:\\Code collection\\Daily code\\2026 year\\6 month"
+    ]
+  }
+}

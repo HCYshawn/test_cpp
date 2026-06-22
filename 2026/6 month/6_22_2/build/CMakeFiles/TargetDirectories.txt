@@ -1,0 +1,7 @@
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/CMakeFiles/INSTALL.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/CMakeFiles/ALL_BUILD.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/CMakeFiles/ZERO_CHECK.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/shape/CMakeFiles/Shape.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/shape/CMakeFiles/INSTALL.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/app/CMakeFiles/shape_app.dir
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/app/CMakeFiles/INSTALL.dir

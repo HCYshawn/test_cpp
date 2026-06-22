@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/cmake_install.cmake",
+		"D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/shape/cmake_install.cmake",
+		"D:/Code collection/Daily code/2026 year/6 month/6_22_2/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

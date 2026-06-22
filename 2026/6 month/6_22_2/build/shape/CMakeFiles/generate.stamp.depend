@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/CMake/cmake-4.4.0-rc1-windows-x86_64/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/CMake/cmake-4.4.0-rc1-windows-x86_64/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/cmake-4.4.0-rc1-windows-x86_64/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+D:/CMake/cmake-4.4.0-rc1-windows-x86_64/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/cmake/ShapeConfig.cmake.in
+D:/Code collection/Daily code/2026 year/6 month/6_22_2/shape/CMakeLists.txt
