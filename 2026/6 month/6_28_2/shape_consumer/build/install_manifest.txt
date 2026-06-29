@@ -1,0 +1,7 @@
+D:/shape_install/lib/shape.lib
+D:/shape_install/bin/shape.dll
+D:/shape_install/include/shape/shape.h
+D:/shape_install/lib/cmake/Shape/ShapeTargets.cmake
+D:/shape_install/lib/cmake/Shape/ShapeTargets-debug.cmake
+D:/shape_install/lib/cmake/Shape/ShapeConfig.cmake
+D:/shape_install/lib/cmake/Shape/ShapeConfigVersion.cmake

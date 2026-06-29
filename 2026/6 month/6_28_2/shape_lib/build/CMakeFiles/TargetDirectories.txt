@@ -1,0 +1,3 @@
+D:/Code collection/Daily code/2026 year/6 month/6_28_2/shape_lib/build/CMakeFiles/shape_user.dir
+D:/Code collection/Daily code/2026 year/6 month/6_28_2/shape_lib/build/CMakeFiles/ALL_BUILD.dir
+D:/Code collection/Daily code/2026 year/6 month/6_28_2/shape_lib/build/CMakeFiles/ZERO_CHECK.dir
